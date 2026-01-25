@@ -48,3 +48,7 @@ left         right
 			git add .
 			git commit -m "hi hi"
 			git push (upload purpose)
+
+
+			git pull (download)
+			<!-- git conflict -->
