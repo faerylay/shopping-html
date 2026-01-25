@@ -68,3 +68,12 @@ left         right
 			git commit -m "ko kit code and my code combine"
 			git push
 			
+
+<!-- current branch check  -->
+     git branch -a
+		 <!-- develop ,* main , aungaung -->
+		 git checkout aungaung
+
+		 <!-- now inside aungaung -->
+    <!-- develop ,main ,*  aungaung -->
+<!-- jump to wanted branch -->
