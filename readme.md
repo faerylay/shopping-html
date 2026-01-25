@@ -47,8 +47,24 @@ left         right
 
 			git add .
 			git commit -m "hi hi"
-			git push (upload purpose)
+			git push 
 
 
-			git pull (download)
-			<!-- git conflict -->
+
+			<!-- conflict system -->
+			git add .
+			git commit -m "commit name"
+			git push
+
+			<!-- error occur -> terminal say need to use git pull with yellow color --> ok lets pull
+
+			git pull 
+			<!-- error occur git conflict  -->
+			git merge
+			solving -> which code need to use 
+		  
+			re-upload
+			git add .
+			git commit -m "ko kit code and my code combine"
+			git push
+			
