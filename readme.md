@@ -43,3 +43,8 @@ left         right
 			git branch -M main
 			git remote add origin https://github.com/faerylay/shopping-html.git
 			git push -u origin main
+			
+
+			git add .
+			git commit -m "hi hi"
+			git push
