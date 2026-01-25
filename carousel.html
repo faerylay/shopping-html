@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.hero-section {
+				width: 100%;
+				height: 600px;
+				background-image: url('https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg');
+				background-size: 100% 100%;
+				background-attachment: fixed;
+			}
+
+			.carousel {
+				width: 100%;
+				height: 220px;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				overflow: auto;
+				justify-content: flex-start;
+				align-items: center;
+				margin-bottom: 20px;
+
+				/* flex-direction - default -> row*/
+			}
+			.card {
+				width: 150px;
+				height: 200px;
+				background-color: grey;
+				flex-shrink: 0;
+				margin-left: 10px;
+				margin-right: 10px;
+				border-radius: 10px;
+				overflow: hidden;
+				color: orange;
+			}
+			.card img {
+				object-fit: cover;
+			}
+			.card-image {
+				width: 100%;
+				height: 100%;
+				background-image: url('https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+				background-size: 100% 100%;
+			}
+			.section .section-header {
+				padding: 10px 20px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.section .section-header h2 {
+				font-size: 20px;
+				font-weight: 600;
+			}
+			.grid-cards {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.grid-cards .card {
+				margin-bottom: 10px;
+			}
+			.section {
+				width: 50vw;
+				/* display: flex;
+				flex-direction: column;
+				align-self: center; */
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="hero-section"></div>
+		<!-- div default inline element -->
+		<div class="section">
+			<div class="section-header">
+				<h2>Recommendations</h2>
+				<p>See All</p>
+			</div>
+			<div class="carousel">
+				<div class="card">
+					<div class="card-image">
+						<p>Titanic</p>
+						<span>1994</span>
+						<span>Rating 5.4</span>
+					</div>
+				</div>
+				<div class="card">
+					<img
+						src="https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+						alt="Card Image"
+						width="100%"
+						height="50%"
+					/>
+					<p>Titanic</p>
+					<span>1994</span>
+					<span>Rating 5.4</span>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="section-header">
+				<h2>Recommendations</h2>
+				<p>See All</p>
+			</div>
+			<div class="carousel">
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="section-header">
+				<h2>Recommendations</h2>
+				<p>See All</p>
+			</div>
+			<div class="grid-cards">
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+				<div class="card">
+					<div class="card-image"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
