@@ -35,3 +35,11 @@ h1, h2,h3,h4,h5,h6
 left         right
 
       bottom 
+
+
+			git init 
+			git add . 
+			git commit -m "first commit"
+			git branch -M main
+			git remote add origin https://github.com/faerylay/shopping-html.git
+			git push -u origin main
